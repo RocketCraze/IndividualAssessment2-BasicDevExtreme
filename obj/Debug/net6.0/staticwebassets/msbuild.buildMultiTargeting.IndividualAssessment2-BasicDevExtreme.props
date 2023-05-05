@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IndividualAssessment2-BasicDevExtreme.props" />
+</Project>
