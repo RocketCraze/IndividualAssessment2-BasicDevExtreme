@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SkZnB23h9rlqO2AfHOyI7Hx7sFVoLWmH32oaCcCdVXc=",
+  "Hash": "HgPeRtWInilR5RJgr6b55fgDE/kndGrDtYNoXTbsuJE=",
   "Source": "IndividualAssessment2-BasicDevExtreme",
   "BasePath": "_content/IndividualAssessment2-BasicDevExtreme",
   "Mode": "Default",
@@ -1037,12 +1037,12 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2"
     },
     {
-      "Identity": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\css\\Site.css",
+      "Identity": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\css\\styling.css",
       "SourceId": "IndividualAssessment2-BasicDevExtreme",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\",
       "BasePath": "_content/IndividualAssessment2-BasicDevExtreme",
-      "RelativePath": "css/Site.css",
+      "RelativePath": "css/styling.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1051,7 +1051,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Site.css"
+      "OriginalItemSpec": "wwwroot\\css\\styling.css"
     },
     {
       "Identity": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.data.js",
@@ -2395,6 +2395,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js"
+    },
+    {
+      "Identity": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\js\\disableId.js",
+      "SourceId": "IndividualAssessment2-BasicDevExtreme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\",
+      "BasePath": "_content/IndividualAssessment2-BasicDevExtreme",
+      "RelativePath": "js/disableId.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\disableId.js"
     }
   ]
 }

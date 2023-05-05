@@ -1,14 +1,8 @@
 @using IndividualAssessment2_BasicDevExtreme.Models
 
 <head>
-    <link rel="stylesheet" href="~/css/Site.css" />
+    <link rel="stylesheet" href="~/css/styling.css" />
 </head>
-
-<style>
-    body {
-        background-color: #2a2a2a !important;
-    }
-</style>
 
 <h2 class="text-light">Home</h2>
 
@@ -18,7 +12,18 @@
         .Mvc()
         .Controller("SampleUsersData")
         .LoadAction("Get")
+        .InsertAction("Add")
+        .UpdateAction("Update")
+        .DeleteAction("Delete")
         .Key("ID"))
+    .Editing(_ => _
+        .Mode(GridEditMode.Form)
+        .RefreshMode(GridEditRefreshMode.Reshape)
+        .AllowAdding(true)
+        .AllowUpdating(true)
+        .AllowDeleting(true)
+        .Texts(_ => _.AddRow("Add User"))
+    )
     .Columns(columns => {
         columns.AddFor(_ => _.ID);
         columns.AddFor(_ => _.Name);
@@ -28,4 +33,16 @@
     })
     .Paging(_ => _.PageSize(10))
     .HoverStateEnabled(true)
+    .OnEditorPreparing("disableId")
+    .RemoteOperations(true)
+    .Toolbar(toolbar =>
+    {
+        toolbar.Items(_ => _
+            .Add()
+            .Name("addRowButton")
+            .ShowText(ToolbarItemShowTextMode.Always)
+        );
+    })
 )
+
+<script type="text/javascript" src="~/js/disableID.js"></script>

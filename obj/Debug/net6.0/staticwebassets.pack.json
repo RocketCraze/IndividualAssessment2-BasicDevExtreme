@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\css\\Site.css",
-      "PackagePath": "staticwebassets\\css\\Site.css"
-    },
-    {
       "Id": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\css\\devextreme\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\devextreme\\bootstrap.css"
     },
@@ -243,6 +239,10 @@
     {
       "Id": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2",
       "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff2"
+    },
+    {
+      "Id": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\css\\styling.css",
+      "PackagePath": "staticwebassets\\css\\styling.css"
     },
     {
       "Id": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\js\\devextreme\\FileSaver.js",
@@ -559,6 +559,10 @@
     {
       "Id": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js",
       "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js"
+    },
+    {
+      "Id": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\js\\disableId.js",
+      "PackagePath": "staticwebassets\\js\\disableId.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.IndividualAssessment2-BasicDevExtreme.Microsoft.AspNetCore.StaticWebAssets.props",
