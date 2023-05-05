@@ -7,7 +7,7 @@ namespace IndividualAssessment2_BasicDevExtreme.Models
     using System.Threading.Tasks;
 
     public class User {
-        public int ID { get; set; }
+        public int? ID { get; set; }
 
         public string Name { get; set; }
 
