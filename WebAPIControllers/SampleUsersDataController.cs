@@ -1,19 +1,17 @@
 namespace WebAPIControllers
 {
-    using IndividualAssessment2_BasicDevExtreme.Models;
-
     using DevExtreme.AspNet.Data;
     using DevExtreme.AspNet.Mvc;
 
+    using IndividualAssessment2_BasicDevExtreme.Models;
+
     using Microsoft.AspNetCore.Mvc;
 
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Net;
-    using System.Net.Http;
     using Newtonsoft.Json;
+
     using SampleData;
+
+    using System.Linq;
 
     [Route("api/[controller]")]
     public class SampleUsersDataController : Controller

@@ -24,12 +24,14 @@
         .AllowDeleting(true)
         .Texts(_ => _.AddRow("Add User"))
     )
-    .Columns(columns => {
-        columns.AddFor(_ => _.ID);
-        columns.AddFor(_ => _.Name);
-        columns.AddFor(_ => _.Surname);
-        columns.AddFor(_ => _.BirthDate);
-        columns.AddFor(_ => _.Age);
+    .Columns(_ => {
+        _.AddFor(_ => _.ID);
+        _.AddFor(_ => _.Name);
+        _.AddFor(_ => _.Surname);
+        _.AddFor(_ => _.BirthDate)
+            .Caption ("Date of Birth")
+            .Format("d MMMM yyyy");
+        _.AddFor(_ => _.Age);
     })
     .Paging(_ => _.PageSize(10))
     .HoverStateEnabled(true)
@@ -45,4 +47,4 @@
     })
 )
 
-<script type="text/javascript" src="~/js/disableID.js"></script>
+<script type="text/javascript" src="~/js/disableFields.js"></script>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HgPeRtWInilR5RJgr6b55fgDE/kndGrDtYNoXTbsuJE=",
+  "Hash": "pD8CAELMPPxqdr/lEMgB6M6iFuYWgbhb87yH+0X5ue4=",
   "Source": "IndividualAssessment2-BasicDevExtreme",
   "BasePath": "_content/IndividualAssessment2-BasicDevExtreme",
   "Mode": "Default",
@@ -2397,12 +2397,12 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js"
     },
     {
-      "Identity": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\js\\disableId.js",
+      "Identity": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\js\\disableFields.js",
       "SourceId": "IndividualAssessment2-BasicDevExtreme",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leonlr\\OneDrive - PaySpace\\Documents\\Grad Dev\\Individual Assignment 2\\IndividualAssessment2-BasicDevExtreme\\wwwroot\\",
       "BasePath": "_content/IndividualAssessment2-BasicDevExtreme",
-      "RelativePath": "js/disableId.js",
+      "RelativePath": "js/disableFields.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2411,7 +2411,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\disableId.js"
+      "OriginalItemSpec": "wwwroot\\js\\disableFields.js"
     }
   ]
 }
