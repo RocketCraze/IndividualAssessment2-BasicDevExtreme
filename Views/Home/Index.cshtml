@@ -1,29 +1,31 @@
 @using IndividualAssessment2_BasicDevExtreme.Models
 
-<h2>Home</h2>
+<head>
+    <link rel="stylesheet" href="~/css/Site.css" />
+</head>
+
+<style>
+    body {
+        background-color: #2a2a2a !important;
+    }
+</style>
+
+<h2 class="text-light">Home</h2>
 
 @(Html.DevExtreme().DataGrid<User>()
     .ShowBorders(true)
-    .DataSource(d => d.Mvc().Controller("SampleData").LoadAction("Get").Key("OrderID"))
+    .DataSource(_ => _
+        .Mvc()
+        .Controller("SampleUsersData")
+        .LoadAction("Get")
+        .Key("ID"))
     .Columns(columns => {
-        columns.AddFor(m => m.OrderID);
-        columns.AddFor(m => m.OrderDate);
-        columns.AddFor(m => m.CustomerName);
-        columns.AddFor(m => m.ShipCountry);
-        columns.AddFor(m => m.ShipCity);
+        columns.AddFor(_ => _.ID);
+        columns.AddFor(_ => _.Name);
+        columns.AddFor(_ => _.Surname);
+        columns.AddFor(_ => _.BirthDate);
+        columns.AddFor(_ => _.Age);
     })
-    .Paging(p => p.PageSize(10))
-    .FilterRow(f => f.Visible(true))
-    .HeaderFilter(f => f.Visible(true))
-    .GroupPanel(p => p.Visible(true))
-    .Grouping(g => g.AutoExpandAll(false))
-    .RemoteOperations(true)
-    .Summary(s => s
-        .TotalItems(totalItems => {
-            totalItems.AddFor(m => m.ShipCity).SummaryType(SummaryType.Count);
-        })
-        .GroupItems(groupItems => {
-            groupItems.Add().SummaryType(SummaryType.Count);
-        })
-    )
+    .Paging(_ => _.PageSize(10))
+    .HoverStateEnabled(true)
 )

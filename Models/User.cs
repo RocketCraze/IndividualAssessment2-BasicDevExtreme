@@ -1,16 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace IndividualAssessment2_BasicDevExtreme.Models 
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
 
-namespace IndividualAssessment2_BasicDevExtreme.Models {
-    public class SampleOrder {
-        public int OrderID { get; set; }
-        public DateTime OrderDate { get; set; }
-        public string CustomerID { get; set; }
-        public string CustomerName { get; set; }
-        public string ShipCountry { get; set; }
-        public string ShipCity { get; set; }
+    public class User {
+        public int ID { get; set; }
+
+        public string Name { get; set; }
+
+        public string Surname { get; set; }
+
+        public DateTime BirthDate { get; set; }
+
+        public int Age { get; set; }
     }
 }
